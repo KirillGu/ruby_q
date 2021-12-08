@@ -31,5 +31,7 @@ end
 p = People.new
 puts p.say
 
+binding.irb #показывает код в окресности
+
 r = Network.new
 puts r.status
